@@ -83,8 +83,8 @@ The following table illustrates a few of the preceding concepts. The table shows
 | --- | --- | --- | --- | --- | --- |
 | internal | 0 | 100 | 100 | 0 | Effective MAX% and shared% aren't applicable to the internal pool. |
 | default | 0 | 100 | 30 | 30 | The effective MAX value is calculated as: min(100,100-(20+50)) = 30. The calculated shared % is effective MAX - MIN = 30. |
-| Pool 1 | 20 | 100 | 50 | 30 | The effective MAX value is calculated as: min(100,100-50) = 50. The calculated Shared % is Effective MAX - MIN = 30. |
-| Pool 2 | 50 | 70 | 70 | 20 | The effective MAX value is calculated as: min(70,100-20) = 70. The calculated Shared % is Effective MAX - MIN = 20. |
+| Pool 1 | 30 | 100 | 50 | 30 | The effective MAX value is calculated as: min(100,100-50) = 50. The calculated Shared % is Effective MAX - MIN = 30. |
+| Pool 2 | 50 | 70 | 70 | 30 | The effective MAX value is calculated as: min(70,100-30) = 70. The calculated Shared % is Effective MAX - MIN = 30. |
 
 The following formulas are used for calculating the effective MAX% and the shared % in the table:
 
